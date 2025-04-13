@@ -106,4 +106,3 @@ Crux is open-source and released under the [MIT License](LICENSE).
 
 - Thanks to all contributors who make Crux better every day.
 - Special thanks to the communities and libraries that helped Crux become what it is today.
-```
