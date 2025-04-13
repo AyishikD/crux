@@ -15,7 +15,13 @@
 ### Option 1: Install via APT (Recommended)
 
 To install Crux on your system, simply run:
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/your-username/crux.git
+   cd crux
+   ```
+2. Sudo install
 ```bash
 sudo apt update
 sudo apt install crux
