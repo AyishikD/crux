@@ -1,0 +1,9 @@
+Package: crux
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Ayishik Das Ayishikad@gmail.com
+Description: CRUX - A hacker-style modular system toolkit in C
+ A minimal, interactive CLI monitoring toolkit written in C. 
+ Includes sysmon, fswatch, netspy, and more.

@@ -1,0 +1,7 @@
+#!/bin/bash
+# prerm script to clean up when uninstalling
+
+# Remove crux binaries
+echo "Removing crux..."
+rm -f /usr/local/bin/crux
+rm -f /usr/local/bin/crux-bin
