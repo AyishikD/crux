@@ -6,22 +6,13 @@
 
 - **Fast**: Optimized for speed and performance.
 - **Modular**: Designed with modularity in mind, so you can extend or modify functionality easily.
-- **Cross-Platform**: Runs on Linux, macOS, and WSL on Windows.
+- **Cross-Platform**: Runs on Linux and WSL on Windows.
 - **Customizable**: Easily modify behavior through configuration or by adding custom modules.
 - **Package Management**: Install and update easily via package managers like APT.
 
 ## Installation
 
-### Option 1: Install via APT (Recommended)
-
-To install Crux on your system, simply run:
-
-```bash
-sudo apt update
-sudo apt install crux
-```
-
-### Option 2: Build from Source
+### Option 1: Build from Source
 
 If you prefer to build Crux from source, follow these steps:
 
@@ -44,7 +35,7 @@ If you prefer to build Crux from source, follow these steps:
    sudo make install
    ```
 
-### Option 3: Install via .deb Package
+### Option 2: Install via .deb Package
 
 If you have a `.deb` package, you can install it manually:
 
@@ -115,4 +106,3 @@ Crux is open-source and released under the [MIT License](LICENSE).
 
 - Thanks to all contributors who make Crux better every day.
 - Special thanks to the communities and libraries that helped Crux become what it is today.
-```
