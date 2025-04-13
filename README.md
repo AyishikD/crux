@@ -6,7 +6,7 @@
 
 - **Fast**: Optimized for speed and performance.
 - **Modular**: Designed with modularity in mind, so you can extend or modify functionality easily.
-- **Cross-Platform**: Runs on Linux, macOS, and WSL on Windows.
+- **Cross-Platform**: Runs on Linux and WSL on Windows.
 - **Customizable**: Easily modify behavior through configuration or by adding custom modules.
 - **Package Management**: Install and update easily via package managers like APT.
 
