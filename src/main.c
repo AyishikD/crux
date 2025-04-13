@@ -11,6 +11,9 @@
 #include "pingspy.h"
 #include "procstat.h"
 #include "cpuheat.h"
+#include "pgrep.h"
+#include "free.h"  
+#include "pmap.h"
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
@@ -59,6 +62,25 @@ int main(int argc, char *argv[]) {
         }
         run_pingspy(argv[2]);
     }
+    else if (strcmp(argv[1], "free") == 0) {
+        run_free();
+    }
+    else if (strcmp(argv[1], "pgrep") == 0) {
+        if (argc < 3) {
+            fprintf(stderr, "Usage: crux pgrep <process_name>\n");
+            return 1;
+        }
+        run_pgrep(argv[2]);
+    } 
+    else if (strcmp(argv[1],"pmap") == 0){
+        if (argc < 2) {
+            fprintf(stderr, "Usage: %s <pid>\n", argv[0]);
+            return 1;
+        }
+        int pid = atoi(argv[1]);
+        run_pmap(pid);
+        return 0;
+    }   
     else {
         printf("Unknown command: %s\n", argv[1]);
     }

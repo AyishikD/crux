@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -I./src
 
 BIN = bin/crux
-SRC = src/main.c src/sysmon.c src/procpeek.c src/fswatch.c src/netspy.c src/cmdspy.c src/logspy.c src/uptimewatch.c src/diskspy.c src/pingspy.c src/procstat.c src/cpuheat.c
+SRC = src/main.c src/sysmon.c src/procpeek.c src/fswatch.c src/netspy.c src/cmdspy.c src/logspy.c src/uptimewatch.c src/diskspy.c src/pingspy.c src/procstat.c src/cpuheat.c src/free.c src/pgrep.c src/pmap.c
 
 all:
 	mkdir -p bin
