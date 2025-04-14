@@ -56,7 +56,7 @@ crux <command> [options]
 Usage: crux <command> [options]
 
 Commands:
-  - uptime     :     Show system uptime
+  - uptimewatch     :     Show system uptime
   - sysmon     :     Monitor system resources
   - procstat   :     Display process statistics
   - procpeek   :     Peek into process details
